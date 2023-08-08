@@ -1,0 +1,40 @@
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  .logo {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 14px;
+    margin-right: 0;
+  }
+  .menu-items {
+    padding-right: 10px;
+  }
+  .menu-items a {
+    padding-right: 5px;
+  }
+  .head-section-2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .head-title {
+    font-size: 60px;
+  
+  }
+
+  .intro{
+    font-size: 20px;
+  }
+  .head-section-3 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .orange {
+    font-size: 40px;
+  }
+  .container {
+    margin-top: 280px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
+

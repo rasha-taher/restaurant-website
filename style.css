@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+header:after {
+  content: "";
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  z-index: 1;
+  bottom: -190px;
+  position: absolute;
+  -webkit-transform: skewY(-6deg);
+  -ms-transform: skewY(-6deg);
+  transform: skewY(-6deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+.head-section-1 {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  height: 65px;
+}
+.logo {
+  cursor: pointer;
+  font-family: Lacquer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 50px;
+  margin-right: 300px;
+}
+
+.menu-list {
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-right: 250px;
+}
+
+.menu-items {
+  font-family: "Kanit", sans-serif;
+}
+.menu-items a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  height: 50px;
+  width: fit-content;
+  background-color: #ff5a00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  padding-right: -30px;
+}
+.head-section-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.head-title {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bold;
+}
+.intro {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+.bt-start {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cont-img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: #ff5a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 165px;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  padding-right: 30px;
+}
+
+.cont-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.orange {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  color: #ff5a00;
+  text-transform: uppercase;
+}
+.descrip {
+  color: grey;
+}
