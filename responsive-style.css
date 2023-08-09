@@ -215,3 +215,74 @@ color: white;
       margin-left: 8px;
   }
 }
+
+/* Samer */
+.blog {
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.read-more {
+  margin-bottom: 20px;
+}
+
+.subs2 {
+  flex-direction: column;
+  align-items: center;
+
+}
+.testi{margin-bottom: 0%;}
+.p2 {
+  font-size: 25px;
+}
+
+.subs2 p {
+  font-size: 25px
+}
+
+.subs2 h4 {
+  font-size: xx-large;
+}
+
+
+.opening {
+  margin-top: 100px;
+}
+
+.quick {
+  margin-top: 350px;
+}
+.menu3 img {
+  width: 300px;
+}
+.menu2 img {
+  width: 300px;
+}
+.media img {
+  height: 30px;
+  width: 30px;
+
+}
+
+.chef1 img {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.info {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.chef1.info {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.quick ul li {
+  font-size: 25px;
+}
