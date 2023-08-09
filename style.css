@@ -222,6 +222,7 @@ header:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 .i1{
   background-image: url("special-menu1.jpg");
