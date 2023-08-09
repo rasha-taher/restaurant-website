@@ -326,7 +326,8 @@ h1 {
     margin-bottom: 50px;
 
 }
-
+.cal{ margin-top: 20px;
+margin-bottom: 20px;}
 .testi {
     margin-bottom: 250px;
 }
@@ -362,7 +363,6 @@ h1 {
 .CEO {
     color: rgb(201, 198, 198);
     text-align: center;
-    margin-top: -10px;
     font-size: 13px;
 }
 
@@ -387,10 +387,6 @@ h1 {
     color: #FF5A00;
 }
 
-.cal {
-    width: 10px;
-    height: 10px;
-}
 
 .read-more {
     background-color: #FF5A00;
@@ -400,6 +396,7 @@ h1 {
     width: 120px;
     color: white;
     margin-left: 10px;
+    margin-top: 20px;
 }
 
 .menu3 img {
@@ -424,7 +421,8 @@ h1 {
 
 h6 {
     margin-left: 10px;
-    margin-bottom: 0px;
+    margin-top: 20px;
+    
 }
 
 .subs1 {
@@ -436,6 +434,8 @@ h6 {
 .p2 {
     color: gray;
     font-size: smaller;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .subscribe {
@@ -497,9 +497,9 @@ h6 {
 
 }
 
-.quick ul {
+/* .quick ul {
     margin-left: -40px;
-}
+} */
 
 .quick ul li {
     list-style: none;
@@ -517,5 +517,5 @@ h6 {
 
 footer {
     text-align: center;
-    margin-top: 100px
+    margin-top: 50px
 }
