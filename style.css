@@ -320,7 +320,8 @@ body{
     text-align: center;
     border-color: #FF5A00;
 }
-
+.testi .title{ margin-bottom: 50px;}
+.testi .p1{ margin-bottom: 20px;}
 h1 {
     text-align: center;
     margin-bottom: 50px;
