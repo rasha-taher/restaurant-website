@@ -220,10 +220,11 @@ color: white;
 .blog {
   flex-direction: column;
   align-items: center;
-  
+  margin-top: 100px;
 }
 
 .read-more {
+
   margin-bottom: 20px;
 }
 
