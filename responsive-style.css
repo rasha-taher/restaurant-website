@@ -172,10 +172,10 @@ color: white;
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+  /* lls;sd;dnka */
 }
 
 .read-more {
-
   margin-bottom: 20px;
 }
 
@@ -199,11 +199,11 @@ color: white;
 
 
 .opening {
-  margin-top: 100px;
+  margin-top: 95px;
 }
 
 .quick {
-  margin-top: 350px;
+  margin-top: 340px;
 }
 .menu3 img {
   width: 300px;
@@ -238,7 +238,6 @@ color: white;
 .quick ul li {
   font-size: 25px;
 }
-
 }
 /*menu style*/
 @media screen and (min-width: 768px) and (max-width: 834px){
