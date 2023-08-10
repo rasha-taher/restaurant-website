@@ -10,6 +10,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  animation: slide 5s linear infinite; 
 }
 
 header:after {
@@ -139,4 +140,15 @@ header:after {
 }
 .descrip {
   color: grey;
+}
+
+
+@keyframes slide{
+  0%{
+    background: url(home.jpg);
+  }
+  100%{
+    background: url(home1.jpg);
+  }
+
 }
