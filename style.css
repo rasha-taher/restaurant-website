@@ -141,14 +141,3 @@ header:after {
 .descrip {
   color: grey;
 }
-
-
-@keyframes slide{
-  0%{
-    background: url(home.jpg);
-  }
-  100%{
-    background: url(home1.jpg);
-  }
-
-}
