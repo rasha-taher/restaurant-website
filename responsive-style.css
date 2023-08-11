@@ -26,6 +26,7 @@
   .head-section-3 {
     flex-direction: column;
     margin-top: 0px;
+    margin-bottom: 350px;
   }
   .orange {
     font-size: 40px;
@@ -167,4 +168,135 @@ color: white;
   padding-top: 38%;
   padding-left: 11px;
 }
+/* Samer */
+.blog {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  /* lls;sd;dnka */
 }
+
+.read-more {
+  margin-bottom: 20px;
+}
+
+.subs2 {
+  flex-direction: column;
+  align-items: center;
+
+}
+.testi{margin-bottom: 0%;}
+.p2 {
+  font-size: 25px;
+}
+
+.subs2 p {
+  font-size: 25px
+}
+
+.subs2 h4 {
+  font-size: xx-large;
+}
+
+
+.opening {
+  margin-top: 95px;
+}
+
+.quick {
+  margin-top: 340px;
+}
+.menu3 img {
+  width: 300px;
+}
+.menu2 img {
+  width: 300px;
+}
+.media img {
+  height: 30px;
+  width: 30px;
+
+}
+
+.chef1 img {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.info {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.chef1.info {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.CEO { font-size: 20px;}
+.quick ul li {
+  font-size: 25px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 834px){
+  .menu_images{
+      width: 150px;
+      height: 150px;
+  }
+  .small_div{
+      width: 150px;
+      height: 150px;
+  }
+  .like_title{
+      font-size: 15px;
+      font-weight: bold;
+  }
+  .p_inside{
+      font-size: 13px;
+      color: rgb(66 60 60 / 66%);
+  }
+  .price{
+      color: rgb(227, 83, 83);
+      font-size: 17px;
+      margin-left: 8px;
+  }
+} 
+@media screen and (min-width: 320px) and (max-width: 428px) {
+  .div-inside-rev{
+      display: flex;
+      flex-direction: row-reverse;
+  }
+  .div-inside{
+      display: flex;
+      flex-direction: row;
+  }
+ .img_container{
+      display:flex ;
+      flex-direction: column;
+  }
+  .menu_images{
+      width: 120px;
+      height: 120px;
+  }
+  .small_div{
+      width: 120px;
+      height: 120px;
+  }
+  .like_title{
+      font-size: 13px;
+      font-weight: bold;
+  }
+  .p_inside{
+      font-size: 9px;
+      color: rgb(66 60 60 / 66%);
+  }
+  .price{
+      color: rgb(227, 83, 83);
+      font-size: 11px;
+      margin-left: 8px;
+  }
+}
+
+
