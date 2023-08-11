@@ -151,8 +151,12 @@ header:after {
   flex-direction: row;
   height: 600px;
   width: 100%;
+  
 }
+.children:hover{
+background-size: 110%;
 
+}
 .line{ 
   width: 60px;
   align-items: center;
@@ -234,6 +238,7 @@ background-size: cover;
     height: 500px;
 margin-left: 30px;
 
+
 }
 .i2{
   background-image: url("special-menu2.jpg");
@@ -267,9 +272,11 @@ justify-content: center;
 align-content: center;
 color: white;
 margin-bottom: 10px;
-
-
   
+}
+.rond:hover{
+  background-color:transparent;
+  border: 2px solid white;
 }
 .rond p{
   padding-top: 38%;
