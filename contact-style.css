@@ -123,7 +123,9 @@ header {
   width: 25px;
   height: 25px;
   margin-right: 20px;
+  margin-right: 20px;
   margin-top: 10px;
+  color:#ff5a00;
   color:#ff5a00;
  
 }
@@ -178,15 +180,15 @@ header {
   margin-right: 30px;
 
 }
-
 .media {
   margin-top: 80px;
 }
 
-.media img {
+.socialicon {
   height: 20px;
   width: 20px;
   margin-right: 10px;
+  color: #FF5A00;
 
 }
 
@@ -201,10 +203,6 @@ header {
   width: 300px;
 
 }
-
-/* .quick ul {
-  margin-left: -40px;
-} */
 
 .quick ul li {
   list-style: none;
@@ -223,4 +221,84 @@ header {
 footer {
   text-align: center;
   margin-top: 50px
+}
+
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  .logo {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 14px;
+    margin-right: 0;
+  }
+  .menu-items {
+    padding-right: 10px;
+  }
+  .menu-items a {
+    padding-right: 5px;
+  }
+  .head-section-2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .head-title {
+    font-size: 60px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sending-message{
+     width: 100%;
+     padding-left: 25px;
+    margin-bottom: 150px;
+  }
+  .general-info{
+    width: 100%;
+    padding-left: 25px;
+  }
+  .box{
+    height: 25px;
+    width:250px ;
+  }
+  
+  .b1{
+    height: 50px;
+  }
+  .subs2 {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .p2 {
+    font-size: 20px;
+  }
+
+  .subs2 p {
+    font-size: 25px
+  }
+
+  .subs2 h4 {
+    font-size: xx-large;
+  }
+
+  .opening {
+    margin-top: 95px;
+  }
+
+  .quick {
+    margin-top: 340px;
+  }
+  .quick ul li {
+    font-size: 25px;
+  }
+  .socialicon {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+  }
+  .title{
+    text-align: center;
+  }
 }
