@@ -5,12 +5,16 @@
 header {
   height: 500px;
   width: 100%;
-  background-image: url(home.jpg);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  animation: slide 5s linear infinite; 
+  animation: slide 5s linear infinite;
 }
 
 header:after {
@@ -109,7 +113,7 @@ header:after {
 }
 
 .cont-img {
-  border-radius: 50%;
+  border-radius:50%;
   height: 70px;
   width: 70px;
   background-color: #ff5a00;
@@ -132,7 +136,7 @@ header:after {
   height: 200px;
   width: 200px;
   padding-right: 30px;
-  background-color: #FF5A00;
+ 
 }
 
 .cont-img img {
