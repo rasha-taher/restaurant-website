@@ -122,10 +122,181 @@ header {
 .svgs{
   width: 25px;
   height: 25px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-top: 10px;
+  color:#ff5a00;
  
 }
 .info-text{
   padding-top: 10px;
+}
+.subs1 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.p2 {
+  color: gray;
+  font-size: smaller;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  text-align: center;
+  background-color: #f0681f;
+  box-shadow: none;
+  border-color: white;
+  height: 40px;
+  width: 140px;
+  color: white;
+  margin-left: 20px;
+}
+
+.mail {
+  height: 40px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.subs1 {
+  margin-bottom: 80px;
+  margin-top: 250px;
+}
+
+.subs2 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.about-us {
+  height: 400px;
+  width: 300px;
+  margin-right: 30px;
+
+}
+.media {
+  margin-top: 80px;
+}
+
+.socialicon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  color: #FF5A00;
+
+}
+
+.subs3 {
+  height: 400px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.quick {
+  height: 400px;
+  width: 300px;
+
+}
+
+.quick ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.quick ul li a {
+  text-decoration: none;
+  color: #FF5A00;
+}
+
+.opening {
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px
+}
+
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  .logo {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 14px;
+    margin-right: 0;
+  }
+  .menu-items {
+    padding-right: 10px;
+  }
+  .menu-items a {
+    padding-right: 5px;
+  }
+  .head-section-2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .head-title {
+    font-size: 60px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sending-message{
+     width: 100%;
+     padding-left: 25px;
+    margin-bottom: 150px;
+  }
+  .general-info{
+    width: 100%;
+    padding-left: 25px;
+  }
+  .box{
+    height: 25px;
+    width:250px ;
+  }
+  
+  .b1{
+    height: 50px;
+  }
+  .subs2 {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .p2 {
+    font-size: 20px;
+  }
+
+  .subs2 p {
+    font-size: 25px
+  }
+
+  .subs2 h4 {
+    font-size: xx-large;
+  }
+
+  .opening {
+    margin-top: 95px;
+  }
+
+  .quick {
+    margin-top: 340px;
+  }
+  .quick ul li {
+    font-size: 25px;
+  }
+  .socialicon {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+  }
+  .title{
+    text-align: center;
+  }
 }
