@@ -140,7 +140,7 @@
   .blog {
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    padding-left: 50px;
   }
 
   .read-more {
@@ -152,7 +152,7 @@
     align-items: center;
   }
   .testi {
-    margin-bottom: 0%;
+    margin-bottom: 200px;
   }
   .p2 {
     font-size: 25px;
@@ -173,9 +173,7 @@
   .quick {
     margin-top: 350px;
   }
-  .blog{
-    padding-left: 50px;
-  }
+  
   .menu2 {
     width: 100%;
     margin-right: 0px;
@@ -218,11 +216,14 @@
     font-size: 25px;
   }
   .line {
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 0;
   }
   .contact-us {
     display: none;
+  }
+  .CEO{
+    font-size: 18px;
   }
 }
 
