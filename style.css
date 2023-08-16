@@ -304,7 +304,277 @@ header:after {
   padding-left: 20px;
 }
 
-.price {
+.p_price {
   font-weight: bold;
   font-size: larger;
+}
+.big_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.div-inside-rev{
+  display: flex;
+  flex-direction: row;
+}
+.div-inside{
+  display: flex;
+  flex-direction: row;
+}
+.img_container{
+  display:flex ;
+  flex-direction: row;
+}
+.menu_images{
+  width: 175px;
+  height: 175px;
+}
+.small_div{
+  width: 175px;
+  height: 175px;
+}
+.like_title{
+  font-size: 17px;
+  font-weight: bold;
+}
+.p_inside{
+  font-size: 14px;
+  color: rgb(66 60 60 / 66%);
+}
+.price{
+  color: rgb(227, 83, 83);
+  font-size: 15px;
+  margin-left: 8px;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.line{ width: 60px;
+  text-align: center;
+  border-color: #FF5A00;
+  }
+  /* Samer */
+.line {
+  width: 60px;
+  text-align: center;
+  border-color: #FF5A00;
+}
+
+.testi .title {
+  margin-bottom: 50px;
+}
+
+.testi .p1 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.cal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.testi {
+  margin-bottom: 250px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+
+}
+
+.blog {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -90px;
+  margin-left: -120px;
+
+}
+
+.CEO {
+  color: rgb(201, 198, 198);
+  text-align: center;
+  font-size: 13px;
+}
+
+
+.chef1 {
+  align-items: center;
+  text-align: center;
+}
+
+.testi img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 350px;
+
+
+}
+
+.menu3 h6 {
+  font-size: larger;
+  font-display: none;
+  color: #FF5A00;
+}
+
+
+.read-more {
+  background-color: #FF5A00;
+  box-shadow: none;
+  border-color: white;
+  height: 30px;
+  width: 120px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.menu3 img {
+  width: 380px;
+}
+
+.menu3 {
+  margin-right: 15px;
+  width: 400px;
+}
+
+.menu3 p {
+  padding-left: 10px;
+  color: gray;
+  font-size: smaller;
+
+}
+
+.text1 {
+  margin-left: 15px;
+}
+
+h6 {
+  margin-left: 10px;
+  margin-top: 20px;
+
+}
+
+.subs1 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.p2 {
+  color: gray;
+  font-size: smaller;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  text-align: center;
+  background-color: #f0681f;
+  box-shadow: none;
+  border-color: white;
+  height: 40px;
+  width: 140px;
+  color: white;
+  margin-left: 20px;
+}
+
+.mail {
+  height: 40px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.subs1 {
+  margin-bottom: 80px;
+  margin-top: 250px;
+}
+
+.subs2 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.about-us {
+  height: 400px;
+  width: 300px;
+  margin-right: 30px;
+
+}
+
+.media {
+  margin-top: 80px;
+}
+
+.media img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+
+}
+
+.subs3 {
+  height: 400px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.quick {
+  height: 400px;
+  width: 300px;
+
+}
+
+/* .quick ul {
+    margin-left: -40px;
+} */
+
+.quick ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.quick ul li a {
+  text-decoration: none;
+  color: #FF5A00;
+}
+
+.opening {
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px
+}
+
+.copy {
+  margin-top: 100px;
 }
