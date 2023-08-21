@@ -254,22 +254,57 @@
     </div>
    <!-- Samer -->
    <hr class="line">
-   <div class="testi">
-       <p class=" title"> TESTIMONIAL</p>
-       <p class=" p1"> " Far far away, behind the word mountains, far from the countries<br> Vokalia and consonantia,
-           there live the blind
-           texts.Separated they<br> live in Bookmarkgrove right at the coast of the Semantic, a large<br> language
-           ocean."</p>
-       <div class="chef1">
-           <div>
-               <img src="chef.jpg" alt="chef">
-           </div>
-           <div class="info">
-               <p> Mike Riachardson </p>
-               <p class="CEO"> CEO XYZ Company</p>
-           </div>
-       </div>
-   </div>
+   <div class="div-slider">
+    <div class="testi active">
+      <p class="title">TESTIMONIAL 1</p>
+      <p class="p1">"Far far away, behind the word mountains, far from the countries<br>Vokalia and consonantia, there live the blind texts. Separated they<br>live in Bookmarkgrove right at the coast of the Semantic, a large<br>language ocean."</p>
+      <div class="chef1">
+        <div>
+          <img src="chef.jpg" alt="chef">
+        </div>
+        <div class="info">
+          <p>Mike Riachardson</p>
+          <p class="CEO">CEO XYZ Company</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="testi active">
+      <p class="title">TESTIMONIAL 2</p>
+      <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Cum error sit commodi est nemo,
+         adipisci dolores placeat ipsa in quos<br/> provident blanditiis cumque natus suscipit, quasi tempore sed dicta culpa.</p>
+      <div class="chef1">
+        <div>
+          <img src="chef2.jpg" alt="chef">
+        </div>
+        <div class="info">
+          <p>Anne saintclire</p>
+          <p class="CEO">Chef de partie</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots"></div>
+  </div>
+  
+  <script> 
+  
+  const testimonialSections = document.querySelectorAll(".testi");
+  
+  function showTestimonial(index) {
+    testimonialSections.forEach((section, i) => {
+      section.classList.toggle("active", i === index);
+    });
+  }
+  
+  // Set up the interval for automatic slide change
+  let currentIndex = 0;
+  const interval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % testimonialSections.length;
+    showTestimonial(currentIndex);
+  }, 2500); // Adjust the interval duration (in milliseconds) as needed
+  
+
+  </script>
    
    <hr class="line">
    <p class=" title">BLOG</p>
