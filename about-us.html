@@ -13,7 +13,7 @@
           <li class="menu-items"><a href="index.html">Home</a></li>
           <li class="menu-items"><a href="#">Recipes</a></li>
           <li class="menu-items"><a href="#">Services</a></li>
-          <li class="menu-items"><a href="#">About</a></li>
+          <li class="menu-items"><a href="about-us.html">About</a></li>
           <li class="menu-items"><a href="#">News</a></li>
         </ul>
       </div>
@@ -80,6 +80,19 @@
           </p>
         </div>
       </div>
+      <div class="inside-container">
+        <div class="left">
+          <p class="orange">Our Location</p>
+        </div>
+        <div class="right">
+          
+              <iframe class="gmap_iframe"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              </iframe>
+            
+          </div>
+        </div>
+      </div>
       <p class="orange o1">Meet Our Chefs</p>
       <div class="our-chefs">
         <br />
@@ -108,8 +121,41 @@
       </div>
     </div>
     <div class="extra">
-        Share your moments with us. Follow us on instagram @foodyrestaurant
+      Share your moments with us. Follow us on instagram @foodyrestaurant
     </div>
+    <!-- FAQ's-->
+    <div class="faq">
+      <p class="faq-title">FAQs</p>
+      <div class="question" onclick="toggleAnswer(1)">
+        At what time can we have lunch or dinner?
+        <span>&#9660;</span>
+      </div>
+      <div class="answer" id="answer1">
+        Lunch is served from 13:00-15:30<br />Dinner is served from 20:00-22:30
+      </div>
+
+      <div class="question" onclick="toggleAnswer(2)">
+        Is it open every day of the week?
+        <span>&#9660;</span>
+      </div>
+      <div class="answer" id="answer2">We are open every day</div>
+
+      <div class="question" onclick="toggleAnswer(3)">
+        Are there Kids menus?
+        <span>&#9660;</span>
+      </div>
+      <div class="answer" id="answer3">
+        We do not have a set kids’ menu but we do offer alternatives for
+        children on request.
+      </div>
+
+      <div class="question" onclick="toggleAnswer(4)">
+        How to reserve a table?
+        <span>&#9660;</span>
+      </div>
+      <div class="answer" id="answer4">Yes, +1 242 4942 290</div>
+    </div>
+    <!--End of FAQs-->
 
     <footer>
       <div class="subs">
@@ -162,10 +208,10 @@
           <div class="quick">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href=" ">About</a></li>
+              <li><a href="about-us.html">About</a></li>
               <li><a href="">Term of use</a></li>
               <li><a href=""> Disclaimers</a></li>
-              <li><a href=""> Contact</a></li>
+              <li><a href="contact-us.html"> Contact</a></li>
             </ul>
           </div>
         </div>
@@ -174,5 +220,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
