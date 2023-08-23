@@ -333,6 +333,36 @@
            </div>
        </div>
    </div>
+   <div id="reviews">
+    <h2>Leave a Review</h2>
+    <form id="review-form">
+      <textarea id="review-input" placeholder="Write your review here..." rows="4"></textarea>
+      <button type="button" id="submit-review">Submit</button>
+    </form>
+    <div id="user-reviews">
+      <h2>User Reviews</h2>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const reviewForm = document.getElementById('review-form');
+      const reviewInput = document.getElementById('review-input');
+      const userReviews = document.getElementById('user-reviews');
+      const submitButton = document.getElementById('submit-review');
+
+      submitButton.addEventListener('click', function() {
+        const userReview = reviewInput.value;
+        if (userReview !== '') {
+          const reviewElement = document.createElement('div');
+          reviewElement.classList.add('user-review');
+          reviewElement.textContent = userReview;
+          userReviews.appendChild(reviewElement);
+          reviewInput.value = '';
+        }
+      });
+    });
+  </script>
    <footer>
    <div class="subs">
        <div class="subs1">
@@ -390,7 +420,6 @@
            <p class="p2"> Copyright &copy 2023 All right reserved</p>
        </div>
        </footer>
-   </div>
    <script src="script.js"></script>
   </body>
 </html>

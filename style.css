@@ -646,3 +646,42 @@ footer {
 .copy {
   margin-top: 100px;
 }
+#reviews {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+#reviews h2 {
+  color: #ff5a00;
+}
+#review-form {
+  margin-top: 15px;
+}
+#review-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+#review-form button {
+  margin-top: 10px;
+  background-color: #ff5a00;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#user-reviews {
+  margin-top: 20px;
+}
+.user-review {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
