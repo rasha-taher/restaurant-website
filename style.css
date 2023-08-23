@@ -263,6 +263,10 @@ header:after {
   justify-content: center;
   align-items: center;
 }
+.children:hover {
+  background-size: 125%;
+
+}
 
 .i1 {
   background-image: linear-gradient(
@@ -319,7 +323,10 @@ header:after {
   align-content: center;
   color: white;
 }
-
+.rond:hover{
+  background-color: transparent;
+  border: 1px solid white;
+}
 .rond p {
   padding-top: 38%;
   padding-left: 20px;
@@ -334,7 +341,6 @@ header:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
   margin-bottom: 200px;
 }
 .div-inside-rev{
