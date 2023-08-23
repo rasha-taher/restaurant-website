@@ -35,15 +35,15 @@
     <div class="container">
       <div class="sending-message">
         <p class="title">Message Us</p>
-        <form>
+        <form action='messagesent.html' method="post" onsubmit="return valid()">
           <p class="info">UserName</p>
-          <input class="box" type="text" placeholder="UserName" />
+          <input id="username"  class="box" type="text"  name="user" placeholder="UserName" onblur="isValidUsername()" />
           <p class="info">Email</p>
-          <input type="email" class="box" placeholder="Email" />
+          <input  id="email" type="email" class="box" name="mail" placeholder="Email" onblur="isValidEmail()" />
           <p class="info">Enter Your Message</p>
-          <textarea class="box b1" placeholder="Your Feedback"></textarea>
+          <textarea id="message" class="box b1" name="message" placeholder="Your Feedback" onblur="isValidMessage()"></textarea>
           <br />
-          <input type="submit" value="Submit" class="mess-button" />
+          <input type="submit" name="send" value="Submit" class="mess-button" />                                                 
         </form>
       </div>
       <div class="general-info">
@@ -129,5 +129,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
