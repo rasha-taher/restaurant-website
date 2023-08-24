@@ -30,14 +30,14 @@ header {
         rgba(0, 0, 0, 0.3) 100%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url(restaurant__image2.jpg);
+      url(home1.jpg);
   }
   66.66% {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3) 100%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url(restaurant__image3.jpg);
+      url(home2.jpg);
   }
 }
 
@@ -181,12 +181,17 @@ header:after {
 .container-1 {
   margin-bottom: 200px;
 }
+.container-2 {
+  margin-bottom: 200px;
+}
 
 .inside-container-2 {
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 600px;
   width: 100%;
+  justify-content: center;
 }
 
 .line {
@@ -255,14 +260,19 @@ header:after {
 }
 
 .children {
-
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 500px;
+  margin-left: 30px;
   margin-top: 30px;
-  margin-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .children:hover {
   background-size: 125%;
 
@@ -273,14 +283,6 @@ header:after {
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
   ),url("special-menu1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  width: 400px;
-  height: 500px;
-  margin-left: 30px;
-
 }
 
 .i2 {
@@ -288,13 +290,6 @@ header:after {
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
   ), url("special-menu2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  width: 400px;
-  height: 500px;
-  margin-left: 30px;
 }
 
 .i3 {
@@ -302,14 +297,6 @@ header:after {
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
   ), url("special-menu3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  width: 400px;
-  height: 500px;
-  margin-left: 30px;
-
 }
 
 .rond {
@@ -465,6 +452,7 @@ h1 {
   justify-content: center;
   display: flex;
   padding-left: 100px;
+  margin-bottom:200px ;
 }
 
 .info {
