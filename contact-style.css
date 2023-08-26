@@ -3,13 +3,13 @@
   padding: 0;
 }
 header {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.3) 100%,
-    rgba(0, 0, 0, 0.5) 100%
-  ),
-  url(home.jpg);
+      rgba(0, 0, 0, 0.3) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(images/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,6 +17,29 @@ header {
   animation: slide 5s linear infinite;
 }
 
+@keyframes slide {
+  0%, 100% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(images/home.jpg);
+  }
+  33.33% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("images/home1.jpg");/
+  }
+  66.66% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("images/home2.jpg");
+  }
+}
 .head-section-1 {
   display: flex;
   flex-direction: row;
@@ -246,21 +269,24 @@ footer {
   }
   .head-title {
     font-size: 60px;
-
   }
+  .social-info{
+   width: 100%;
+}
 
   .container {
     display: flex;
     flex-direction: column;
-  }
+    align-items: center;
+  } 
   .sending-message{
-     width: 100%;
-     padding-left: 25px;
+    width: 100%;
+     padding-left: 0px; 
     margin-bottom: 150px;
   }
   .general-info{
     width: 100%;
-    padding-left: 25px;
+    padding-left:0px;
   }
   .box{
     height: 25px;

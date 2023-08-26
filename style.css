@@ -9,7 +9,7 @@ header {
       rgba(0, 0, 0, 0.3) 100%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url(home.jpg);
+    url(images/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,21 +23,21 @@ header {
         rgba(0, 0, 0, 0.3) 100%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url(home.jpg);
+      url(images/home.jpg);
   }
   33.33% {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3) 100%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url(home1.jpg);
+      url("images/home1.jpg");/
   }
   66.66% {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.3) 100%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url(home2.jpg);
+      url("images/home2.jpg");
   }
 }
 
@@ -287,21 +287,21 @@ header:after {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
-  ),url("special-menu1.jpg");
+  ),url("images/special-menu1.jpg");
 }
 
 .i2 {
   background-image:  linear-gradient(
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
-  ), url("special-menu2.jpg");
+  ), url("images/special-menu2.jpg");
 }
 
 .i3 {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.3) 100%,
     rgba(0, 0, 0, 0.5) 100%
-  ), url("special-menu3.jpg");
+  ), url("images/special-menu3.jpg");
 }
 
 .rond {
